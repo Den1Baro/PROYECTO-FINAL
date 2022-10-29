@@ -1,4 +1,4 @@
 # Proyecto-final
 Pagina 
-Clau peñuqueria canina
+Clau peluqueria Canina
 
