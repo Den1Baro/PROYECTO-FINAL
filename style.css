@@ -10,8 +10,42 @@
     display: flex;
     align-items: center;
     background-color: rgb(193, 255, 255);
+    width: 100;
+    
+}
+.nav-btn{
+    display: none;
 }
 
+.nav-links{
+    display: inline;
+    float: right;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
 
+}
+.nav-links >a{
+    display: inline-block;
+    color: black;
+    transition:0.3s;
+    font-size: 25px;
 
-
+}
+.nav-links> a:hover {
+    transition: 00.3s;
+    color: red;
+}
+.nav #nav-check{
+    display: none;
+}
+.banner-container{
+    position: relative;
+    top: 4rem;
+}
+.banner-botones>h2{
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+}
