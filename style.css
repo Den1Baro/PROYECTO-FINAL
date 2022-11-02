@@ -6,6 +6,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1024px;
+    height: 90%;
+}
+
+@media (max-width:1024px) {
 .nav{
     display: flex;
     align-items: center;
@@ -30,12 +36,12 @@
     display: inline-block;
     color: black;
     transition:0.3s;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .nav-links> a:hover {
     transition: 00.3s;
-    color: red;
+    color: rgb(0, 38, 255);
 }
 .nav #nav-check{
     display: none;
@@ -51,7 +57,21 @@
 }
 .botones-animales{
     display: flex;
+    grid-gap: 7vh;
 }
-.botones-animales, h1{
+body {
+    margin-left: 250px;
+    margin-top: 125px;
+   }
+
+
+
+
     
 }
+.botones-animales{
+    border-bottom: 2px solid rgb(70, 213, 248);
+    border-top: 2px solid rgb(70, 213, 248);
+    padding-left: 10px;
+    margin: 30px 0px; 
+    }
