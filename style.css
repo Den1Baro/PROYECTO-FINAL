@@ -49,3 +49,9 @@
     color: black;
     display: inline-block;
 }
+.botones-animales{
+    display: flex;
+}
+.botones-animales, h1{
+    
+}
