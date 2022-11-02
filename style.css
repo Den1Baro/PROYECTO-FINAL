@@ -61,6 +61,7 @@ body{
 .botones-animales{
     display: flex;
     grid-gap: 20vh;
+    padding-top: 5vh;
 }
 body {
     margin-left: 250px;
@@ -69,12 +70,50 @@ body {
 .botones-animales{
     border-bottom: 2px solid rgb(70, 213, 248);
     border-top: 2px solid rgb(70, 213, 248);
+    border-left: 2px solid rgb(70, 213, 248);
+    border-right: 2px solid rgb(70, 213, 248);
     padding-left: 60px;
-    margin: 30px 0px; 
+    margin: 3rem; 
+    padding: 2rem;
     }
 
     .text-perro, .text-gato, .text-peces, .text-conejos{
         text-align: center;
     }
 
-.
+
+.peluqueria-canina{
+    position: absolute;
+    background-image: url(./img/burbujas\ backgrpun.webp);
+margin: 3rem;
+padding: 2rem;
+border-top: 2px solid rgb(70, 213, 248);
+border-bottom: 2px solid rgb(70, 213, 248);
+border-left: 2px solid rgb(70, 213, 248);
+border-right: 2px solid rgb(70, 213, 248);
+
+}
+.peluqueria-canina>h1{
+    text-align: center;
+    background-color:rgb(193, 255, 255) ;
+color: black;
+text-decoration: solid;
+}
+.peluqueria-canina>p{
+    font-family: 'sora', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+.lista-baño{
+    font-family: 'sora', sans-serif;
+    color: black;
+    text-decoration: underline;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 50vh;
+
+}
