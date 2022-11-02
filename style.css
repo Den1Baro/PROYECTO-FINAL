@@ -38,6 +38,7 @@ body{
     color: black;
     transition:0.3s;
     font-size: 20px;
+    padding-right: 5vh;
 
 }
 .nav-links> a:hover {
