@@ -11,4 +11,36 @@ body{
     height: 90%;
 }
 
+.container-fluid{
+    background-color: rgb(184, 253, 253);
+}
+.navbar-nav{
+    margin-top: 2rem;
+    margin-left: auto;
+    font-family: 'Karla', sans-serif; color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(109, 247, 247);
+}
+.medioPago{
+    height: 120px;
+}
+.medioPago{
+    background-image: url(./img/metodos-de-pago-1-1024x294.png);
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
     
+}
+.medioPago>h1{
+    line-height: 100px;
+  
+    text-decoration: underline;
+}
+.medioPago>h1{
+    margin-top: 100;
+    margin-bottom: 100;
+    font-size: 3rem;
+    background-color: white;
+}
