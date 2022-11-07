@@ -17,16 +17,36 @@
 
 <body>
 <header>
-    <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-3 border-bottom border-primary">
-<div class="container-fluid">
-    <!-- ACA ESTA EL LOGO DE LA MARCA -->
-    <a href="./index.html" class="navbar-brand"><img src="./img/4-sin-fondo.jpg" alt="logo" height="100"></a>
-    <!-- EL BOTON DESPLEGABLE -->
-    <button type="button" class="navbar-toggler"
-
-</div>
-</nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./img/4-sin-fondo.jpg" alt="logo" height="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/imagenes.html">Imágenes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./html/perros.htm">Perros</a></li>
+                <li><a class="dropdown-item" href="./html/gatos.html">Gatos</a></li>
+                <li><a class="dropdown-item" href="./html/cachorros.html">Cachorros</a></li>
+                <li><a class="dropdown-item" href="./html/otro.html">Otro</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
 </header>
 
 <main>
