@@ -10,10 +10,11 @@ body{
     max-width: 1400px;
     height: 90%;
 }
-
+/* toda la caja del nav */
 .container-fluid{
     background-color: rgb(184, 253, 253);
 }
+/* los botones del nav */
 .navbar-nav{
     margin-top: 2rem;
     margin-left: auto;
@@ -22,6 +23,8 @@ body{
     font-weight: bold;
     background-color: rgb(109, 247, 247);
 }
+/* iniciar sesion y carrito */
+/* medio de pago completo */
 .medioPago{
     height: 120px;
 }
@@ -35,7 +38,6 @@ body{
 }
 .medioPago>h1{
     line-height: 100px;
-  
     text-decoration: underline;
 }
 .medioPago>h1{
@@ -44,3 +46,4 @@ body{
     font-size: 3rem;
     background-color: white;
 }
+/* carousel */
